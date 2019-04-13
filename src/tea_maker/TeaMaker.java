@@ -1,4 +1,4 @@
-gpackage tea_maker;
+package tea_maker;
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -16,6 +16,7 @@ class TeaBag {
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
+TeaMaker hi = new TeaMaker();
 
 	private String flavor;
 
@@ -58,10 +59,12 @@ class Cup {
 
 	void makeTea(TeaBag teabag, Kettle.Water hotWater) {
 		this.teabag = teabag;
-		if (hotWater.isHot())
+		if (hotWater.isHot()) {
 			System.out.println("Making hot " + teabag.getFlavor() + " tea.");
-		else
+		}
+		else {
 			System.out.println("Can't make tea with cold water! ");
+		}
 	}
 
 }

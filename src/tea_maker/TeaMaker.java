@@ -16,7 +16,7 @@ class TeaBag {
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
-TeaMaker hi = new TeaMaker();
+
 
 	private String flavor;
 

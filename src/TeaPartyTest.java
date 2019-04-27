@@ -1,9 +1,6 @@
 
-
-	import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 	import org.junit.Test;
-
-import minion.TeaParty;
 
 	public class TeaPartyTest {
 	       /**
@@ -21,4 +18,3 @@ import minion.TeaParty;
 	               assertEquals("Hello Sir Isaac Newton", teaParty.welcome("Isaac Newton", false, true));
 	       }
 	}
-
